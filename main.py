@@ -383,6 +383,23 @@ def clear_all(event=None):
     clear_text(sample_mean_random_text)
     # endregion
 
+
+def paste_from_clipboard(event=None):
+    """
+    Функция для вставки текста из буфера обмена
+    :param event:
+    :return:
+    """
+    try:
+        # Получаем данные из буфера обмена
+        clipboard_data = root.clipboard_get()
+
+        # Вставляем данные в поле Entry
+        manual_entry.insert(tk.INSERT, clipboard_data)
+    except tk.TclError:
+        print("Буфер обмена пустой!")
+
+
 # endregion
 
 # region Интерфейс
@@ -416,8 +433,10 @@ manual_entry_text.grid(row=1, column=0)
 # поле ввода
 manual_entry = tk.Entry(root, width=standard_width, font=font)
 manual_entry.grid(row=1, column=1, padx=padding, pady=padding)
-manual_entry.bind("<Return>", add_value)
-manual_entry.bind("<Shift-Return>", manual_calculation)
+manual_entry.bind("<Return>", add_value)  # Добавление данных нажатием Enter
+manual_entry.bind("<Shift-Return>", manual_calculation)  # Запуск расчета нажатием Shift + Enter
+manual_entry.bind("<Control-v>", paste_from_clipboard)  # Возможность вставить текст из буфера обмена Ctrl + V
+manual_entry.bind("<Shift-Insert>", paste_from_clipboard)  # Возможность вставить текст из буфера обмена Shift + Insert
 
 # поле отображения
 manual_values_display = tk.Text(root, height=standard_height, width=standard_width, font=font)

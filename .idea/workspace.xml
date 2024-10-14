@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1f9e3ca-1a99-4c37-9fbe-d1a98f4eac5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mathModelLab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="b1f9e3ca-1a99-4c37-9fbe-d1a98f4eac5a" name="Changes" comment="Первый коммит.&#10;Запуск main.py введет к запуску программы. В файле находится код отрисовки интерфейса и обработки действий кнопок. &#10;В файле functions.py находятся математические функции, применяемые в работе программы">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725608513331</updated>
     </task>
+    <task id="LOCAL-00001" summary="Первый коммит.&#10;Запуск main.py введет к запуску программы. В файле находится код отрисовки интерфейса и обработки действий кнопок. &#10;В файле functions.py находятся математические функции, применяемые в работе программы">
+      <option name="closed" value="true" />
+      <created>1728900347814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728900347814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первый коммит.&#10;Запуск main.py введет к запуску программы. В файле находится код отрисовки интерфейса и обработки действий кнопок. &#10;В файле functions.py находятся математические функции, применяемые в работе программы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первый коммит.&#10;Запуск main.py введет к запуску программы. В файле находится код отрисовки интерфейса и обработки действий кнопок. &#10;В файле functions.py находятся математические функции, применяемые в работе программы" />
   </component>
 </project>
